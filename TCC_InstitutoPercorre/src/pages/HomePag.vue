@@ -1,0 +1,13 @@
+<template>
+  <div>
+    <h1>Casa de acolhimento Mirabal</h1>
+  </div>
+</template>
+
+<script setup></script>
+<style scoped lang="scss">
+body{
+    background-color: #fff2f6;
+}
+
+</style>
