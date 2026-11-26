@@ -1,24 +1,14 @@
-// Cores da Mira (Não mudem de lugar!! precisa ficar anets dos imports do bootstrap)
-$Rosa-Magenta: #ac3458;
-$rosa: #b26081;
-$Rosa-baby: #fff2f6;
-$Verde-ciano: #45b2b8;
-$Roxo: #704690;
-
-@import 'bootstrap/scss/bootstrap';
-
-.nav-link.router-link-active {
-  color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
-}
-
+@use 'bootstrap/scss/bootstrap' with (
+  $primary: #ac3458, 
+  $secondary: #704690, 
+  $success: #45b2b8, 
+  $info: #b26081,
+  $light: #fff2f6 
+);
 #app {
-//   display: flex;
-//   flex-direction: column;
-  min-height: 100vh; /* Ocupa a altura toda da tela */
+  min-height: 100vh;
 }
 
 main {
-  flex: 1; /* Faz o main crescer e empurrar o footer para baixo */
+  flex: 1;
 }
